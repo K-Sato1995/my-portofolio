@@ -32,16 +32,30 @@ export default class PostTemplate extends React.Component {
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
           <PostNav />
-          <div>
-            <h1>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={postNode} />
+          <main className="site-main">
+            <div className="container">
+              <article className="content">
+                <figure className="post-feature-image">
+                  <img
+                    src="https://static.ghost.org/v2.0.0/images/welcome-to-ghost.jpg"
+                    alt="Welcome to Ghost"
+                  />
+                </figure>
+                <section className="post-full-content">
+                  <h1 className="content-title">{post.title}</h1>
+                  <section className="content-body load-external-scripts">
+                    <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+                  </section>
+                </section>
+              </article>
+              <div className="post-meta">
+                <PostTags tags={post.tags} />
+                <SocialLinks postPath={slug} postNode={postNode} />
+              </div>
+              <UserInfo config={config} />
+              <Disqus postNode={postNode} />
             </div>
-            <UserInfo config={config} />
-            <Disqus postNode={postNode} />
-          </div>
+          </main>
         </div>
       </Layout>
     );
