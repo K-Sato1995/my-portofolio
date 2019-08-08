@@ -17,16 +17,92 @@ class PostListing extends React.Component {
     });
     return postList;
   }
+
   render() {
     const postList = this.getPostList();
     return (
       <div>
-        {/* Your post list here. */
-        postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))}
+        <main className="site-main">
+          <div className="container">
+            <header className="author-header">
+              <div className="author-header-content">
+                <h1>Ghost</h1>
+                <p>You can delete this user to remove all the welcome posts</p>
+                <div className="author-header-meta">
+                  <a
+                    className="author-header-item"
+                    href="https://ghost.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Website
+                  </a>
+                  <a
+                    className="author-header-item"
+                    href="https://twitter.com/tryghost"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter
+                  </a>
+                  <a
+                    className="author-header-item"
+                    href="https://www.facebook.com/ghost"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Facebook
+                  </a>
+                </div>
+              </div>
+              <div className="author-header-image">
+                <img
+                  src="https://static.ghost.org/v2.0.0/images/ghost.png"
+                  alt="Ghost"
+                />
+              </div>
+            </header>
+            <section className="post-feed">
+              {/* Your post list here. */
+              postList.map(post => (
+                <Link class="post-card" to={post.path} key={post.title}>
+                  <header className="post-card-header">
+                    <div className="post-card-image" />
+                    <div className="post-card-tags">
+                      {" "}
+                      <span className="">Getting Started</span>
+                    </div>
+                    <h2 className="post-card-title">{post.title}</h2>
+                  </header>
+                  <section className="post-card-excerpt">
+                    Ghost comes with a beautiful default theme called Casper,
+                    which is designed to be a clean, readable publication layout
+                    and can be easily adapted for most purposes.
+                  </section>
+                  <footer className="post-card-footer">
+                    <div className="post-card-footer-left">
+                      <div className="post-card-avatar">
+                        <img
+                          className="author-profile-image"
+                          src="https://static.ghost.org/v2.0.0/images/ghost.png"
+                          alt="Ghost"
+                        />
+                      </div>
+                      <span>Ghost</span>
+                    </div>
+                    <div className="post-card-footer-right">
+                      <div>1 min read</div>
+                    </div>
+                  </footer>
+                </Link>
+              ))}
+            </section>
+            <nav className="pagination" role="navigation">
+              <div />
+              <div />
+            </nav>
+          </div>
+        </main>
       </div>
     );
   }

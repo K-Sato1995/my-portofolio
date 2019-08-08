@@ -9,8 +9,8 @@ import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
-import "./post.css";
+import "../styles/app.css";
+import "prismjs/themes/prism-coy.css";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -43,13 +43,13 @@ export default class PostTemplate extends React.Component {
                 </figure>
                 <section className="post-full-content">
                   <h1 className="content-title">{post.title}</h1>
+                  <PostTags tags={post.tags} />
                   <section className="content-body load-external-scripts">
                     <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
                   </section>
                 </section>
               </article>
               <div className="post-meta">
-                <PostTags tags={post.tags} />
                 <SocialLinks postPath={slug} postNode={postNode} />
               </div>
               <UserInfo config={config} />
