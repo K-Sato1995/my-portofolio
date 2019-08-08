@@ -3,7 +3,8 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
-import Nav from "../components/Nav";
+import Footer from "../components/Footer/Footer";
+import PostNav from "../components/Navs/PostNav";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "../styles/app.css";
@@ -14,10 +15,11 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Nav />
           <Helmet title={config.siteTitle} />
+          <PostNav />
           <SEO />
           <PostListing postEdges={postEdges} />
+          <Footer />
         </div>
       </Layout>
     );

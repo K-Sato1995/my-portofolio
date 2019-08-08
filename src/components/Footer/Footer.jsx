@@ -1,35 +1,49 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import UserLinks from "../UserLinks/UserLinks";
-import "./Footer.css";
+import React from "react";
 
-class Footer extends Component {
-  render() {
-    const { config } = this.props;
-    const url = config.siteRss;
-    const { copyright } = config;
-    if (!copyright) {
-      return null;
-    }
-    return (
-      <footer className="footer">
-        <UserLinks config={config} labeled />
-        <div className="notice-container">
-          <h4>{copyright}</h4>
-
-          <Link to={url}>
-            <button>Subscribe</button>
-          </Link>
-          <h4>
-            Based on{" "}
-            <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-              Gatsby Advanced Starter
-            </a>.
-          </h4>
+function Footer() {
+  return (
+    <footer className="site-foot">
+      <div className="site-foot-nav container">
+        <div className="site-foot-nav-left">
+          <a href="/">Ghost &amp; Gatsby</a>
+          {' '}
+© 2019 — Published with
+          {" "}
+          <a
+            className="site-foot-nav-item"
+            href="https://ghost.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ghost
+          </a>
         </div>
-      </footer>
-    );
-  }
+        <div className="site-foot-nav-right">
+          <a className="site-foot-nav-item" href="/">
+            Home
+          </a>
+          <a className="site-foot-nav-item" href="/tag/getting-started/">
+            Tag
+          </a>
+          <a
+            aria-current="page"
+            className="site-foot-nav-item"
+            href="/author/ghost/"
+          >
+            Author
+          </a>
+          <a
+            className="site-foot-nav-item"
+            href="https://help.ghost.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Help
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
