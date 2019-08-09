@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import Footer from "../components/Footer/Footer";
-import PostNav from "../components/Navs/PostNav";
+import Nav from "../components/Nav";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "../styles/app.css";
@@ -16,7 +16,7 @@ class Index extends React.Component {
       <Layout>
         <div className="index-container">
           <Helmet title={config.siteTitle} />
-          <PostNav />
+          <Nav />
           <SEO />
           <PostListing postEdges={postEdges} />
           <Footer />
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            description
             tags
             cover
             date

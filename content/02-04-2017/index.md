@@ -1,5 +1,6 @@
 ---
 title: "lkfjslkfjsdkl"
+description: "This is the description of this post"
 cover: "https://unsplash.it/1152/300/?random?FaityWitch"
 category: "something"
 date: "02/04/2017"

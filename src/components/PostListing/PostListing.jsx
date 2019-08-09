@@ -10,6 +10,7 @@ class PostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         cover: postEdge.node.frontmatter.cover,
         title: postEdge.node.frontmatter.title,
+        description: postEdge.node.frontmatter.description,
         date: postEdge.node.fields.date,
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead
@@ -26,8 +27,10 @@ class PostListing extends React.Component {
           <div className="container">
             <header className="author-header">
               <div className="author-header-content">
-                <h1>Ghost</h1>
-                <p>You can delete this user to remove all the welcome posts</p>
+                <h1>Articles</h1>
+                <p>
+                  The articles are mainly about programming and my daily life.
+                </p>
                 <div className="author-header-meta">
                   <a
                     className="author-header-item"
@@ -56,10 +59,7 @@ class PostListing extends React.Component {
                 </div>
               </div>
               <div className="author-header-image">
-                <img
-                  src="https://static.ghost.org/v2.0.0/images/ghost.png"
-                  alt="Ghost"
-                />
+                <img src="photo.png" alt="K-Sato" />
               </div>
             </header>
             <section className="post-feed">
@@ -75,20 +75,18 @@ class PostListing extends React.Component {
                     <h2 className="post-card-title">{post.title}</h2>
                   </header>
                   <section className="post-card-excerpt">
-                    Ghost comes with a beautiful default theme called Casper,
-                    which is designed to be a clean, readable publication layout
-                    and can be easily adapted for most purposes.
+                    {post.description}
                   </section>
                   <footer className="post-card-footer">
                     <div className="post-card-footer-left">
                       <div className="post-card-avatar">
                         <img
                           className="author-profile-image"
-                          src="https://static.ghost.org/v2.0.0/images/ghost.png"
-                          alt="Ghost"
+                          src="photo.png"
+                          alt="K-Sato"
                         />
                       </div>
-                      <span>Ghost</span>
+                      <span>K-Sato</span>
                     </div>
                     <div className="post-card-footer-right">
                       <div>1 min read</div>
