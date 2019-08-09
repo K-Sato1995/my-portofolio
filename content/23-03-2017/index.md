@@ -1,7 +1,7 @@
 ---
 title: "Birch in the Roses"
 description: "This is the description of this post"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "graphql.png"
 date: "01/03/2017"
 category: "tech"
 tags:

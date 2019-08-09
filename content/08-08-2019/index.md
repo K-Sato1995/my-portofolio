@@ -1,6 +1,6 @@
 ---
 title: "GraphQL Ruby"
-cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
+cover: "graphql.png"
 description: "This is the description of this post"
 category: "Rails"
 date: "08/08/2019"

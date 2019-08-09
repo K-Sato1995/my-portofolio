@@ -1,7 +1,7 @@
 ---
 title: "The Butterfly of the Edge"
 description: "This is the description of this post"
-cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
+cover: "graphql.png"
 category: "tech"
 date: "17/03/2017"
 tags:

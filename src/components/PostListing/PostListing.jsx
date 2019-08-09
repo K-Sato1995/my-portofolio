@@ -67,7 +67,12 @@ class PostListing extends React.Component {
               postList.map(post => (
                 <Link class="post-card" to={post.path} key={post.title}>
                   <header className="post-card-header">
-                    <div className="post-card-image" />
+                    <div
+                      className="post-card-image"
+                      style={{
+                        backgroundImage: `url(${post.cover})`
+                      }}
+                    />
                     <div className="post-card-tags">
                       {" "}
                       <span className="">Getting Started</span>
