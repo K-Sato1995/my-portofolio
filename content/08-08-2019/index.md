@@ -5,9 +5,9 @@ description: "This is the description of this post"
 category: "Rails"
 date: "08/08/2019"
 tags:
-    - programming
-    - GraphQL
-    - turtorial
+  - programming
+  - GraphQL
+  - turtorial
 ---
 
 # Introduction

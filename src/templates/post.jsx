@@ -36,10 +36,7 @@ export default class PostTemplate extends React.Component {
             <div className="container">
               <article className="content">
                 <figure className="post-feature-image">
-                  <img
-                    src="https://static.ghost.org/v2.0.0/images/welcome-to-ghost.jpg"
-                    alt="Welcome to Ghost"
-                  />
+                  <img src={post.cover} alt="Post Image" />
                 </figure>
                 <section className="post-full-content">
                   <h1 className="content-title">{post.title}</h1>
