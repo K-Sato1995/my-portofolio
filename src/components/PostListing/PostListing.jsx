@@ -10,6 +10,7 @@ class PostListing extends React.Component {
         tags: postEdge.node.frontmatter.tags,
         cover: postEdge.node.frontmatter.cover,
         title: postEdge.node.frontmatter.title,
+        category: postEdge.node.frontmatter.category,
         description: postEdge.node.frontmatter.description,
         date: postEdge.node.fields.date,
         excerpt: postEdge.node.excerpt,
@@ -65,7 +66,7 @@ class PostListing extends React.Component {
             <section className="post-feed">
               {/* Your post list here. */
               postList.map(post => (
-                <Link class="post-card" to={post.path} key={post.title}>
+                <Link className="post-card" to={post.path} key={post.title}>
                   <header className="post-card-header">
                     <div
                       className="post-card-image"
@@ -74,8 +75,7 @@ class PostListing extends React.Component {
                       }}
                     />
                     <div className="post-card-tags">
-                      {" "}
-                      <span className="">Getting Started</span>
+                      <span className="">{post.category}</span>
                     </div>
                     <h2 className="post-card-title">{post.title}</h2>
                   </header>
