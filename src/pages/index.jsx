@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
+import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -14,10 +15,11 @@ class Index extends React.Component {
     return (
       <Layout>
         <div className="index-container">
-          <Nav />
           <Helmet title={config.siteTitle} />
+          <Nav />
           <SEO />
           <PostListing postEdges={postEdges} />
+          <Footer />
         </div>
       </Layout>
     );
@@ -43,6 +45,8 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            description
+            category
             tags
             cover
             date

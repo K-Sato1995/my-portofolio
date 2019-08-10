@@ -68,14 +68,6 @@ function Nav() {
             >
               Author
             </a>
-            <a
-              className="site-nav-item"
-              href="https://help.ghost.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Help
-            </a>
           </div>
           <div className="site-nav-right">
             <a className="site-nav-button" href="/about">
