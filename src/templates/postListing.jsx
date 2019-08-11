@@ -9,8 +9,13 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "../styles/app.css";
 
-class Index extends React.Component {
+class postListing extends React.Component {
   render() {
+    const { currentPage, numPages } = this.props.pageContext;
+    const isFirst = currentPage === 1;
+    const isLast = currentPage === numPages;
+    const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString();
+    const nextPage = (currentPage + 1).toString();
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
@@ -18,7 +23,12 @@ class Index extends React.Component {
           <Helmet title={config.siteTitle} />
           <Nav />
           <SEO />
-          <PostListing postEdges={postEdges} prevPage="/" nextPage="/2" />
+          <PostListing
+            postEdges={postEdges}
+            prevPage={prevPage}
+            nextPage={nextPage}
+            isLast={isLast}
+          />
           <Footer />
         </div>
       </Layout>
@@ -26,14 +36,15 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default postListing;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query IndexQuery {
+  query postListingQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      limit: 9
       sort: { fields: [fields___date], order: DESC }
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
