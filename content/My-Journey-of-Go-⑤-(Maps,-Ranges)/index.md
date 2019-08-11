@@ -2,7 +2,7 @@
 title: "My Journey of Go ⑤ (Maps, Ranges)"
 description: "A map is an unordered collection of key-value pairs, where each key is unique. Maps in Go are sometimes called hashes or dictionaries in other programming languages.
 "
-cover: "assets/journey-of-go.png"
+cover: "assets/go-lang.png"
 category: "Go"
 tags:
   - Go

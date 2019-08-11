@@ -1,7 +1,7 @@
 ---
 title: "Active Record Query Interface(Conditions)"
 description: "This is a pure copy&paste of a part from Active Record Query Interface — Ruby on Rails Guides. The guide is very thorough and super informative."
-cover: "assets/rails-logo.jpg"
+cover: "assets/rails.png"
 category: "Rails"
 tags:
   - ActiveRecord

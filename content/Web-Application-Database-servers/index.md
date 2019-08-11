@@ -1,11 +1,11 @@
 ---
 title: "Web-Application-Database servers"
 description: "In this post, I will break down three main servers that are used for web-applications which are web server, application server and database server."
-cover: "assets/"
+cover: "assets/servers.jpg"
 category: "Others"
-tags: 
+tags:
   - Server
-readTime: 
+readTime:
 date: "27/02/2019"
 ---
 In this post, I will break down three main `servers` that are used for web-applications which are `web server`, `application server` and `database server`.
@@ -17,7 +17,7 @@ In this post, I will break down three main `servers` that are used for web-appli
 
 If a web server gets a request to serve a static HTML, CSS of Javascript file, it just returns the requested file.  
 But what happens if a web server gets a request that has to be processed dynamically?   
-That's when an application server comes in. 
+That's when an application server comes in.
 
 `Nginx` and `Apache` are very well known and widely used `web server softwares`.
 
@@ -37,6 +37,6 @@ If you are familiar with Ruby on Rails, you have probably heard of  `Unicorn`, `
 Basically, it is very self-explanatory.   
 A database server holds the `Database Management System (DBMS)` and the `databases`. It searches the database for selected records and passes them back over the network.
 
-## References 
+## References
 - [App server, Web server: What's the difference? \| JavaWorld](https://www.javaworld.com/article/2077354/app-server-web-server-what-s-the-difference.html)
 - [webserver - What is the difference between application server and web server? - Stack Overflow](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server)

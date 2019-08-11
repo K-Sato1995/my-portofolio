@@ -1,11 +1,11 @@
 ---
 title: "ソフトウェア基礎"
 description: "ソフトウェアとは何かから始まり、ソフトウェアの構成、実行時にはコンピュータはどのように命令を処理しているのか等々、ソフトウェアの基本に関してまとめました。"
-cover: "assets/"
+cover: "assets/software.jpg"
 category: "Others"
-tags: 
+tags:
   - Software
-readTime: 
+readTime:
 date: "27/02/2019"
 ---
 # ソフトウェアと OSS

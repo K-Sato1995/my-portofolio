@@ -1,16 +1,14 @@
 ---
 title: "Rspec Basics ③ (Useful Gems)"
-description: " In this post, I'll introduce 3 extremely useful gems you can use with Rspc. These gems enable you to write better specs and save yourself a lot of time.You need to define multiple sets of data in order to test all the given methods, features and objects. This can be quite tedious and tiring if you have to do it over and over again. This is where factory_bot comes in! It allows you to create an object or a collection of objects with predefined sets of values.
-
-"
-cover: "assets/"
+description: " In this post, I'll introduce 3 extremely useful gems you can use with Rspc."
+cover: "assets/rails.png"
 category: "Ruby"
-tags: 
+tags:
   - Rails
   - Ruby
   - Rspec
   - Gem
-readTime: 
+readTime:
 date: "21/09/2018"
 ---
 # Useful gems you can use with Rspec

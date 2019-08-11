@@ -1,11 +1,11 @@
 ---
 title: "Javascript Array functions"
 description: "Here are the basic array functions"
-cover: "assets/"
+cover: "assets/javascript.png"
 category: "Javascript"
-tags: 
+tags:
   - Javascript
-readTime: 
+readTime:
 date: "21/06/2019"
 ---
 # Introduction

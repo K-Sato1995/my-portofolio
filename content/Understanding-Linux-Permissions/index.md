@@ -1,12 +1,12 @@
 ---
 title: "Understanding Linux Permissions"
 description: "Understanding how permissions work in Linux system."
-cover: "assets/"
+cover: "assets/linux.jpg"
 category: "Others"
-tags: 
+tags:
   - Linux
   - Shell
-readTime: 
+readTime:
 date: "14/05/2019"
 ---
 # Introduction
@@ -19,7 +19,7 @@ On a Linux system, each file and directory is assigned access rights for the own
 You can check the permission settings by using `ls -l`.
 
 ```bash
-$ ls -l 
+$ ls -l
 drwxr-xr-x. 13 root  root  1027 Jan  3 12:32 bin/cat
 ```
 
@@ -65,7 +65,7 @@ Users: r-x
 ```
 
 # Change File Modes
-The `chmod` command is used to change the permissions of a file or directory. 
+The `chmod` command is used to change the permissions of a file or directory.
 
 ## Octal Mode
 Each permission may be specified with an octal number: `read = 4`; `write = 2`; `execute = 1`; `no permission = 0`.
@@ -77,7 +77,7 @@ Each permission may be specified with an octal number: `read = 4`; `write = 2`; 
 |execute(x)  | 1  |
 
 
-### Example 
+### Example
 
 The command below means giving permissions to `read(4)`, `write(2)` and `execute(1)` to the owner and permissions to `read(4)` and `execute(1)` to the group user and permissions to `read(4)` to other users.
 
@@ -109,7 +109,7 @@ You can use the following commands to change modes.
 | = | set the specified permissions  |
 
 
-### Example 
+### Example
 
 In the following example, read permission are taken away from others.
 
@@ -133,4 +133,3 @@ $ chmod g=rwx filec
 # References
 
 - [Learning the shell - Lesson 9: Permissions](http://linuxcommand.org/lc3_lts0090.php)
-

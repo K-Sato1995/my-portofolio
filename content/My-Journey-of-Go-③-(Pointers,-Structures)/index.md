@@ -1,7 +1,7 @@
 ---
 title: "My Journey of Go ③ (Pointers, Structures)"
 description: "In this post, I'll mainly explain what pointers and structures are."
-cover: "assets/journey-of-go.png"
+cover: "assets/go-lang.png"
 category: "Go"
 tags:
   - Go

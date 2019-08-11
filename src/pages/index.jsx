@@ -18,7 +18,7 @@ class Index extends React.Component {
           <Helmet title={config.siteTitle} />
           <Nav />
           <SEO />
-          <PostListing postEdges={postEdges} />
+          <PostListing postEdges={postEdges} prevPage="/" nextPage="/2" />
           <Footer />
         </div>
       </Layout>
@@ -32,7 +32,7 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      limit: 2000
+      limit: 9
       sort: { fields: [fields___date], order: DESC }
     ) {
       edges {

@@ -1,13 +1,13 @@
 ---
 title: "Redux 入門 "
 description: "ReactJSが扱うUIのstate(状態)を管理をするためのフレームワークです。この記事ではReduxの基本概念を実際にどの様に用いられるのかコードと共に紹介・説明します。また、Reactと共に用いる方法も紹介します。"
-cover: "assets/"
+cover: "assets/redux.png"
 category: "React"
-tags: 
+tags:
   - Redux
   - React
   - Tutorial
-readTime: 
+readTime:
 date: "16/12/2018"
 ---
 # Introduction

@@ -1,13 +1,13 @@
 ---
 title: "Ruby Getters and Setters Explained"
-description: "In this post, I will explain how getters and setters work in Ruby. A getter method is a method that gets a value of an instance variable. Without a getter method, you can not retrieve a value of an instance variable outside the class the instance variable is instantiated from."
-cover: "assets/"
+description: "In this post, I will explain how getters and setters work in Ruby. A getter method is a method that gets a value of an instance variable."
+cover: "assets/ruby2.jpg"
 category: "Ruby"
-tags: 
+tags:
   - Ruby
   - getter-setter
   - Tutorial
-readTime: 
+readTime:
 date: "17/09/2018"
 ---
 # What is a getter method?

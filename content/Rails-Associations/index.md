@@ -1,12 +1,12 @@
 ---
 title: "Rails Associations"
 description: "Ruby on Railsでよく使用される5つのアソーシエーションに関してまとめました。各アソーシエーション毎に何を意味するのか、また、どんなメソッドを使用する事で関連した要素を作成出来るのかまとめました。"
-cover: "assets/"
+cover: "assets/rails.png"
 category: "Rails"
-tags: 
+tags:
   - Rails
   - Associations
-readTime: 
+readTime:
 date: "21/01/2019"
 ---
 # Associations
@@ -356,7 +356,7 @@ user.pictures << picture.new({}) :該当ユーザーにコメントを関連づ�
   ]
 ```
 
-# References 
+# References
 - [Everything There Is to Know About Associations in Rails - DEV Community 👩‍💻👨‍💻](https://dev.to/neshaz/everything-there-is-to-know-about-associations-in-rails-52ii)
 - [Brush up Your Knowledge of Rails Associations — SitePoint](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
 - [Active Record Associations — Ruby on Rails Guides](https://guides.rubyonrails.org/association_basics.html)

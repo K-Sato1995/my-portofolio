@@ -1,12 +1,12 @@
 ---
 title: "Ruby Exception handling"
 description: "Explaining how to handle exceptions in Ruby."
-cover: "assets/"
+cover: "assets/error2.jpeg"
 category: "Ruby"
-tags: 
+tags:
   - Ruby
   - Exception
-readTime: 
+readTime:
 date: "21/05/2019"
 ---
 # Basic Syntax
@@ -14,7 +14,7 @@ date: "21/05/2019"
 The basic syntax of ruby's exception handling looks like this.
 
 ```ruby
-begin 
+begin
   # Code that potentially raises an error  
 rescue => e # variable
   # Excecute if there was any error between begin and rescue.
@@ -24,8 +24,8 @@ end
 ## Example
 
 ```ruby
-begin 
-  raise 
+begin
+  raise
 rescue => e
   p e #=> RuntimeError
 end
@@ -34,8 +34,8 @@ end
 # Relevant methods
 
 
-| Method 	| Explanation 	| 
-|---	|---|	
+| Method 	| Explanation 	|
+|---	|---|
 | Object#class 	|Returns the class of the receiver.  	|  
 | Kernel#raise 	| Raise an error. 	|  	 
 | Exception#backtrace 	  	|Returns the backtrace of the error.  	|
@@ -44,7 +44,7 @@ end
 ## Example
 
 ```ruby
-begin 
+begin
   raise StandardError.new("Message")
 rescue => e
   p e.class #=> StandardError
@@ -56,14 +56,14 @@ end
 # Ensure
 You can run something regardless of the existence of any error with `ensure`
 
-## Example 
+## Example
 
 ```ruby
-begin 
+begin
   "no Error"
 rescue => e
   p e.message
-ensure 
+ensure
   p "Ensured" #=> Ensured
 end
 ```
@@ -71,11 +71,11 @@ end
 ## Example2
 
 ```ruby
-begin 
+begin
   raise StandardError.new('error')
 rescue => e
   p e.message #=> error
-ensure 
+ensure
   p "Ensured" #=> Ensured
 end
 ```
@@ -118,7 +118,7 @@ You don't need to write `begin and end` to do exception handling in methods.
 ``` ruby
 def method
  raise 'error'
- rescue => e 
+ rescue => e
   p e.message #=> error
  ensure
   p 'ensured' #=> ensured
@@ -131,7 +131,7 @@ method #=> "error"
 You can write rescue multiple times for each corresponding error.
 
 ```ruby
-begin 
+begin
   rescue Exception1, Exception2 => e
   # For Exception1 or Exception2
   rescue Exception3 => e
@@ -145,7 +145,7 @@ end
 ## Example
 
 ```ruby
-begin 
+begin
   raise StandardError
   rescue StandardError, RangeError   
     p 'Standard or Ranage Error'
@@ -180,7 +180,7 @@ end
 ```
 
 (3) Add custom data attributes to your exception
- 
+
  ```ruby
 class CustomError < StandardError
   attr_reader :atr

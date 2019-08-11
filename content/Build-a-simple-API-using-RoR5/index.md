@@ -2,13 +2,13 @@
 title: "Build a simple API using RoR5"
 description: "Here is a simple guideline to create a simple API with RoR5. In this post, I'll create a simple blog like application that users can read, create, update and delete posts on.
 "
-cover: "assets/"
+cover: "assets/rails.png"
 category: "Rails"
-tags: 
+tags:
   - API
   - Ruby
   - Tutorial
-readTime: 
+readTime:
 date: "17/09/2018"
 ---
 # Overview
@@ -30,7 +30,7 @@ $ rake db:migrate
 ```
 
 # Set up Routes with namespaces
- `Namespaces` enable you to easily control the version of your API. 
+ `Namespaces` enable you to easily control the version of your API.
 
 ```Ruby
 Rails.application.routes.draw do
@@ -57,7 +57,7 @@ api_v1_posts GET    /api/v1/posts(.:format)     api/v1/posts#index
 # Set up the Post controller.
  Create the `api` and `v1` directories under your _controllers directory_. Your _controllers directory_ should look like this.
 
-```Ruby 
+```Ruby
 ---- controllers
 
       --- api
@@ -66,10 +66,10 @@ api_v1_posts GET    /api/v1/posts(.:format)     api/v1/posts#index
 
          - posts_controller.rb
 ```
- 
+
  Create methods for getting, creating, updating and deleting posts like the code below.
 
-```Ruby 
+```Ruby
 module Api
   module V1
     class PostsController < ApplicationController
@@ -121,7 +121,7 @@ end
 Let's create some data we can play with on `rails console`.
 
 ```
-$ rails c 
+$ rails c
 2.4.4 :001 > Post.create(title:'title1')
 2.4.4 :001 > Post.create(title:'title2')
 ```

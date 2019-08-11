@@ -1,12 +1,12 @@
 ---
 title: "ES6 Basics"
 description: "Some new features were introduced in ES6. I will cover some of the basic features of them in this post. If you are new to ES6 syntax or new to javascript language, this post might be useful to understand the basic syntax of the language."
-cover: "assets/"
+cover: "assets/es6.jpeg"
 category: "Javascript"
-tags: 
+tags:
   - ES6
   - Javascript
-readTime: 
+readTime:
 date: "12/10/2018"
 ---
 # Introduction

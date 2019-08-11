@@ -1,11 +1,11 @@
 ---
 title: "SQL 101"
 description: "SQL stands for Structured Query Language. It is used to communicate with a database which means every programmer who uses a database should at least know a thing or two about this language. I've made a list of very basic commands of SQL in this post. (This post is still in progress.)"
-cover: "assets/"
+cover: "assets/sql.jpg"
 category: "Others"
-tags: 
+tags:
   - SQL
-readTime: 
+readTime:
 date: "19/01/2019"
 ---
 # Retrieviing records from one table
@@ -169,7 +169,7 @@ The LIKE operator is used in a `WHERE` clause to search for a specified pattern 
 `%` : The percent sign represents zero, one, or multiple characters
 `_ `: The underscore represents a single character
 
-```sql 
+```sql
 SELECT column1, column2, ...
 FROM table_name
 WHERE columnN LIKE pattern;
@@ -313,23 +313,23 @@ SELECT column_names
 ```
 
 **ex):**
-```sql 
-SELECT player, teamid, stadium, mdate 
+```sql
+SELECT player, teamid, stadium, mdate
  FROM game JOIN goal
-  ON (game.id=goal.matchid) 
+  ON (game.id=goal.matchid)
 ```
 
 You can also omit the table names.
 
-```sql 
-SELECT player, teamid, stadium, mdate 
+```sql
+SELECT player, teamid, stadium, mdate
  FROM game JOIN goal
   ON (id=matchid)  WHERE teamid = 'GER'
 ```
 
-```sql 
-SELECT player, teamid, coach, gtime 
-  FROM goal JOIN eteam 
+```sql
+SELECT player, teamid, coach, gtime
+  FROM goal JOIN eteam
   ON (teamid = id) WHERE gtime<=10
 ```
 

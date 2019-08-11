@@ -1,16 +1,16 @@
 ---
 title: "Creating a Database Diagram with rails-erd"
 description: "Quick post about how to create a ER chart with a rails gem."
-cover: "assets/"
+cover: "assets/db-diagram.jpeg"
 category: "Rails"
-tags: 
+tags:
   - Documents
-readTime: 
+readTime:
 date: "17/07/2019"
 ---
 # Add rails-erd
 
-```ruby 
+```ruby
 group :development do
   gem 'rails-erd'
 end
@@ -22,12 +22,12 @@ end
 $ brew install graphviz
 ```
 
-# Run the command 
+# Run the command
 
-```bash 
+```bash
 $ bundle exec erd
 ```
 That's it !!
 
-# References 
+# References
 - [Creating a Database Diagram with Rails-ERD](https://ryanboland.com/blog/creating-a-database-diagram-with-rails-erd/)

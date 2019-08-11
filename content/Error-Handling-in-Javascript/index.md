@@ -1,12 +1,12 @@
 ---
 title: "Error Handling in Javascript"
 description: "Simple introduction of Error Handling in Javascript."
-cover: "assets/"
+cover: "assets/error.jpeg"
 category: "Javascript"
-tags: 
+tags:
   - Javascript
   - Exception
-readTime: 
+readTime:
 date: "21/06/2019"
 ---
 # Basic Syntax

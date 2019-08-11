@@ -1,13 +1,13 @@
 ---
 title: "Create React app with GraphQL + Apollo + Typescript"
 description: "A quick demonstration of how to create a react app in Typescript with GraphQL + Apollo + Typescript + GraphQLCodeGen."
-cover: "assets/"
+cover: "assets/apollo.jpeg"
 category: "React"
-tags: 
+tags:
   - GraphQL
   - Apollo
   - Typescript
-readTime: 
+readTime:
 date: "20/07/2019"
 ---
 # Installation
@@ -67,7 +67,7 @@ generates:
       - "introspection"
 ```
 
-Run the command below 
+Run the command below
 
 ```bash
 $ npm run generate
@@ -148,7 +148,7 @@ query issues {
 }
 ```
 
-and run 
+and run
 
 ```
 $ npm run generate
@@ -185,4 +185,3 @@ export default Issue;
 - [Get started - Apollo Docs](https://www.apollographql.com/docs/react/essentials/get-started/)
 - [GraphQL Code Generator · Generate code from your GraphQL schema with a single function call](https://graphql-code-generator.com/)
 - [client_ts/codegen.yml at master · K-Sato1995/client_ts · GitHub](https://github.com/K-Sato1995/client_ts/blob/master/codegen.yml)
-

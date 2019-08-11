@@ -1,11 +1,11 @@
 ---
 title: "Testing your app in windows using VirtualBox"
 description: "Quick overview of how to use VirtualBox to test your web app in windows."
-cover: "assets/"
+cover: "assets/virtual.png"
 category: "Others"
-tags: 
+tags:
   - VirtualBox
-readTime: 
+readTime:
 date: "13/06/2019"
 ---
 # (1) Download VirtualBox
@@ -79,7 +79,7 @@ Check `http://localhost:3000/` on the virtual machine if you can access to the s
 - shift + right click: Open the cli at the directory you clicked.
 - Notepad file: Open the file with Notepad.
 
-# References 
+# References
 - [How to use windons in VirtualBox](https://www.youtube.com/watch?v=NIauwnXqQr8)
 - [How To Use VirtualBox - Complete Step by Step Tutorial](https://www.youtube.com/watch?v=Eno4l6pKQHc)
 - [Chapter First Steps](https://www.virtualbox.org/manual/ch01.html#features-overview)

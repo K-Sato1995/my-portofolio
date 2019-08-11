@@ -1,29 +1,29 @@
 ---
 title: "Installing ESLint"
 description: "This is just a quick guideline to install ESLint in your JS applications. Follow the steps below and install all the necessary packages."
-cover: "assets/"
+cover: "assets/eslint.jpg"
 category: "Javascript"
-tags: 
+tags:
   - ESLint
   - Javascript
   - Tutorial
-readTime: 
+readTime:
 date: "15/12/2018"
 ---
-# Introduction 
+# Introduction
 This is just a quick guideline to install `ESLint` in your JS applications.
 
 # Install packages
 Follow the steps below and install all the necessary packages.
 
 ```console
-$ npm install --save-dev eslint 
-$ npm add --save-dev eslint-plugin-import eslint-plugin-jsx-a11y 
+$ npm install --save-dev eslint
+$ npm add --save-dev eslint-plugin-import eslint-plugin-jsx-a11y
 $ npm install --save-dev prettier eslint-plugin-prettier
 $ npm install --save-dev eslint-config-prettier
 ```
 
-Or just run 
+Or just run
 
 ```console
 $ npm install --save-dev eslint eslint-plugin-import eslint-plugin-jsx-a11y  prettier eslint-plugin-prettier  eslint-config-prettier
@@ -43,7 +43,7 @@ FYI, [Difference between ESLint and Prettier](https://www.futurehosting.com/blog
 }
 ```
 
-# Add shortcut commands 
+# Add shortcut commands
 
 ```json
 "scripts": {
@@ -98,4 +98,3 @@ eslint:
 - [Running eslint as an npm script results in ELIFECYCLE error. · Issue #2409 · eslint/eslint · GitHub](https://github.com/eslint/eslint/issues/2409)
 - [ESLint をグローバルにインストールせずに使う - Qiita](https://qiita.com/mysticatea/items/6bd56ff691d3a1577321)
 - [Streamline JavaScript Development with ESLint - NodeSource](https://nodesource.com/blog/streamline-javascript-development-with-eslint/)
-

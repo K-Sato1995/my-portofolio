@@ -1,12 +1,12 @@
 ---
 title: "How to create your own npm packages"
 description: "This is a simple guide about how to create your own npm packages."
-cover: "assets/"
+cover: "assets/npm.png"
 category: "Javascript"
-tags: 
+tags:
   - npm
   - package
-readTime: 
+readTime:
 date: "07/06/2019"
 ---
 # Introduction
@@ -43,7 +43,7 @@ module.exports = { Test, Sum };
 
 # Publish it
 
-Simply, run 
+Simply, run
 
 ```
 npm publish
@@ -54,7 +54,7 @@ npm publish
 Get  badges at [Shields.io: Quality metadata badges for open source projects](https://shields.io/)
 
 # Test your package locally
- 
+
 ```shell
 npm install /absolute/path/yourPackage
 ```

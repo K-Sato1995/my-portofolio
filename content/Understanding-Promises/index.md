@@ -1,11 +1,11 @@
 ---
 title: "Understanding Promises"
 description: "Understand how promises work."
-cover: "assets/"
+cover: "assets/promises.jpg"
 category: "Javascript"
-tags: 
+tags:
   - Promise
-readTime: 
+readTime:
 date: "17/06/2019"
 ---
 # What is a promise?
@@ -18,12 +18,12 @@ The function that is passed to `new Promise` should call `resolve` or `reject` t
 
 ```js
 const DATA = { name: "K-Sato", age: 24 };
-      
+
 let promise = new Promise(function(resolve, reject) {
    setTimeout(() => resolve(DATA), 1000);
 })
 
-promise.then(result => 
+promise.then(result =>
   console.log(result)
 )
 ```
@@ -32,12 +32,12 @@ Just changed the name of the promise object.
 
 ```js
 const DATA = { name: "K-Sato", age: 24 };
-      
+
 let dataFetch = new Promise(function(resolve, reject) {
    setTimeout(() => resolve(DATA), 1000);
 })
 
-dataFetch.then(result => 
+dataFetch.then(result =>
   console.log(result)
 )
 ```

@@ -1,11 +1,11 @@
 ---
 title: "ハードウェア基礎"
 description: "コンピュータの5大装置である(制御装置、演算装置、記憶装置、入力装置、出力装置)を基本にハードウェアに関する基礎知識をまとめました。構成としては、コンピュータの５大装置を左にある順序で各装置ごとに重要項目を抜粋し記載しています。"
-cover: "assets/"
+cover: "assets/hardware.jpeg"
 category: "Others"
-tags: 
+tags:
   - Hardware
-readTime: 
+readTime:
 date: "24/02/2019"
 ---
 # コンピュータの 5 大装置

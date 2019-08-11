@@ -1,7 +1,7 @@
 ---
 title: "システムの構成と方式"
 description: "システムの構成や方式に関して簡単にまとめました。"
-cover: "assets/"
+cover: "assets/structure.png"
 category: "Others"
 tags:
   - Server

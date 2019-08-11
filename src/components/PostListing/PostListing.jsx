@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
+
     this.props.postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
@@ -22,6 +23,7 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
+    const { nextPage, prevPage } = this.props;
     return (
       <div>
         <main className="site-main">
@@ -35,32 +37,32 @@ class PostListing extends React.Component {
                 <div className="author-header-meta">
                   <a
                     className="author-header-item"
-                    href="https://ghost.org"
+                    href="https://dev.to/k_penguin_sato"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Website
+                    Dev.to
                   </a>
                   <a
                     className="author-header-item"
-                    href="https://twitter.com/tryghost"
+                    href="https://qiita.com/k-penguin-sato"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Twitter
+                    Qiita
                   </a>
                   <a
                     className="author-header-item"
-                    href="https://www.facebook.com/ghost"
+                    href="https://github.com/K-Sato1995"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    GitHub
                   </a>
                 </div>
               </div>
               <div className="author-header-image">
-                <img src="photo.png" alt="K-Sato" />
+                <img src="me.jpg" alt="K-Sato" />
               </div>
             </header>
             <section className="post-feed">
@@ -101,8 +103,16 @@ class PostListing extends React.Component {
               ))}
             </section>
             <nav className="pagination" role="navigation">
-              <div />
-              <div />
+              {!this.props.isFirst && (
+                <Link to={prevPage} className="newer-posts">
+                  Newer Posts
+                </Link>
+              )}
+              {!this.props.isLast && (
+                <Link to={nextPage} className="older-posts">
+                  Older Posts
+                </Link>
+              )}
             </nav>
           </div>
         </main>

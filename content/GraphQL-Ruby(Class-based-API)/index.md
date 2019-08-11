@@ -1,18 +1,18 @@
 ---
 title: "GraphQL Ruby(Class-based API)"
 description: " In the other post about GraphQL Basics(1), I focused on how to utilize GraphQl on the front-side of a web application. In this post, I'll mainly talk about how to use the tool on your back-end(in this case Ruby on Rails). "
-cover: "assets/"
+cover: "assets/graphql.png"
 category: "Others"
-tags: 
+tags:
   - GraphQL
   - Tutorial
-readTime: 
+readTime:
 date: "18/12/2018"
 ---
 # Introduction
  In the [previous post]([K-Blog](https://k-blog0130.herokuapp.com/en/posts/64)) about `GraphQL`, I focused on how to utilize `GraphQl` on the front-side of a web application.   
- In this post, I'll mainly talk about how to use it on your back-end(in this case Ruby on Rails). 
- 
+ In this post, I'll mainly talk about how to use it on your back-end(in this case Ruby on Rails).
+
 # Basic concepts
  Let's cover some of the very fundamental concepts of `GraphQL`
 
@@ -42,7 +42,7 @@ Simply, add `graphql` and `graphql-rail` to your `Gemfile`.
 ```ruby
 # Gemfile
 gem 'graphql'
-gem 'graphiql-rails' 
+gem 'graphiql-rails'
 ```
 If you want to use graphiql-rails for your api only rails application, add the following line to your `config/application.rb`.
 
@@ -131,7 +131,7 @@ Rails.application.routes.draw do
 
   if Rails.env.development?
     # add the url of your end-point to graphql_path.
-    mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql" 
+    mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
   end
 end
 ```
@@ -214,12 +214,12 @@ module Types
 end
 ```
 
-### Mutation Create 
+### Mutation Create
 Run the command below to generate a mutation for creating a post.
 
 ```console
 $ rails g graphql:mutation CreatePost
-``` 
+```
 The command above will do the folliwing two things.  
 - (1) Create `graphql/mutations/create_post.rb`.
 - (2) Add ` field :createPost, mutation: Mutations::CreatePost` to `graphql/types/mutations_type.rb`.
@@ -243,7 +243,7 @@ module Mutations
 end
 ```
 
-```ruby 
+```ruby
 # (2) Add  field :createPost, mutation: Mutations::CreatePost to graphql/types/mutations_type.rb.
 # app/graphql/types/mutation_type.rb
 module Types
@@ -320,7 +320,7 @@ mutation {
   ){
     post {
       id
-      title 
+      title
       description
     }
   }
@@ -385,7 +385,7 @@ mutation {
   ){
     post {
       id
-      title 
+      title
       description
     }
   }
@@ -449,7 +449,7 @@ mutation {
   ){
     post {
       id
-      title 
+      title
       description
     }
   }
@@ -480,7 +480,7 @@ First, create the comment model and set up the `has_many` association with the P
 $ rails g model Comment content:string post:references
 ```
 
-```ruby 
+```ruby
 # app/models/comment.rb
 class Comment < ApplicationRecord
   belongs_to :post
@@ -535,7 +535,7 @@ module Types
     field :id, Int, null: false
     field :title, String, null: false
     field :description, String, null: false
-    field :comments, [Types::CommentType], null: false 
+    field :comments, [Types::CommentType], null: false
   end
 end
 ```

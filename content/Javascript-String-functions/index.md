@@ -1,13 +1,11 @@
 ---
 title: "Javascript String functions"
-description: "Here are the basic string functions in Javascript
-
-"
-cover: "assets/"
+description: "Here are the basic string functions in Javascript."
+cover: "assets/javascript.png"
 category: "Javascript"
-tags: 
+tags:
   - Javascript
-readTime: 
+readTime:
 date: "27/06/2019"
 ---
 # String functions
