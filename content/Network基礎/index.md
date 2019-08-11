@@ -1,11 +1,11 @@
 ---
 title: "Network基礎"
 description: "ネットワークがよくわかる教科書を読んだのでその知識整理。各章ごとに基本項目や重要単語をまとめました。TCP/IP等のインターネット通信の根幹を支える技術から、イーサネット等の１つのネットワーク内での通信を支える技術等まで幅広くまとめました。"
-cover: "assets/"
+cover: "assets/network.jpg"
 category: "Others"
-tags: 
+tags:
   - Network
-readTime: 
+readTime:
 date: "19/02/2019"
 ---
 # 規模による分類

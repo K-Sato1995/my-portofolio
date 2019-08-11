@@ -1,11 +1,11 @@
 ---
 title: "Untrack already tracked files in your git repository"
 description: "Simple steps to follow to untrack files that are already committed to your remote git repository."
-cover: "assets/"
+cover: "assets/github.png"
 category: "Others"
-tags: 
+tags:
   - Git
-readTime: 
+readTime:
 date: "22/07/2019"
 ---
 # Commit all your changes
@@ -22,7 +22,7 @@ $ git rm -r --cached .
 You can untrack a specific file with:
 
 ```bash
-$ git rm -r --cached foo.txt 
+$ git rm -r --cached foo.txt
 ```
 
 #  Re-add everything

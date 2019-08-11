@@ -2,7 +2,7 @@
 title: "My Journey of Go ④ (Arrays, Slices)"
 description: "The concepts and usages of Arrays and Slices have been quite confusing to me since I started learning Go.
 "
-cover: "assets/journey-of-go.png"
+cover: "assets/go-lang.png"
 category: "Go"
 tags:
   - Go

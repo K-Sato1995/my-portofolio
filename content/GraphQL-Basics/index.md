@@ -2,11 +2,11 @@
 title: "GraphQL Basics"
 description: "One of the projects that I involved with at work used GraphQl and I spent a decent amount of time learning the basic concept of the tool and how to actually use it in applications. I am writing this post so that I can retain my knowledge of the technology and use it in my personal projects in the future.
 This post will mainly focus on the basic concept of `GraphQL` and how to use it on the front-end of your application."
-cover: "assets/"
+cover: "assets/graphql.png"
 category: "Others"
-tags: 
+tags:
   - GraphQL
-readTime: 
+readTime:
 date: "17/12/2018"
 ---
 # Introduction
@@ -65,7 +65,7 @@ For instace, both `(id:1)` and `(client_id:1)` represent the same thing in the c
   client(id:1) {
     name
   }
-  
+
   products(client_id:1) {
     price
     quontity

@@ -1,14 +1,14 @@
 ---
 title: "Cool Resources "
 description: "Cool Resources I stumbled upon on the internet."
-cover: "assets/"
+cover: "assets/library.jpeg"
 category: "Others"
-tags: 
+tags:
   - Documents
-readTime: 
+readTime:
 date: "31/07/2019"
 ---
-# Ruby 
+# Ruby
 - [Ruby, !! operator (a/k/a the double-bang) - Stack Overflow](https://stackoverflow.com/questions/3994033/ruby-operator-a-k-a-the-double-bang)
 - [class Logger - Documentation for Ruby 2.4.0](https://docs.ruby-lang.org/en/2.4.0/Logger.html )
 - [Introduction to Refactoring - RubyGuides](https://www.rubyguides.com/2015/12/ruby-refactoring/)
@@ -22,7 +22,7 @@ date: "31/07/2019"
 - [GitHub - erikhuda/thor: Thor is a toolkit for building powerful command-line interfaces.](https://github.com/erikhuda/thor)
 - [4 Ways to Write and Run a Ruby Script](https://cobwwweb.com/four-ways-to-write-run-ruby-script)
 
-# Rails 
+# Rails
 - [Custom slugs for Rails URLs done right - By Amin Shah Gilani](https://hackernoon.com/using-custom-slugs-for-rails-urls-500eb3f58f3c)
 - [ruby on rails - in factorygirl, any way to refer to the value of field1 when initializing field2? - Stack Overflow](https://stackoverflow.com/questions/12765252/in-factorygirl-any-way-to-refer-to-the-value-of-field1-when-initializing-field2 )
 - [Rails Scopes](https://www.youtube.com/watch?v=C59vE3hiDx4)
@@ -44,7 +44,7 @@ date: "31/07/2019"
 - [How do I handle too long index names in a Ruby on Rails ActiveRecord migration? - Stack Overflow](https://stackoverflow.com/questions/5443740/how-do-i-handle-too-long-index-names-in-a-ruby-on-rails-activerecord-migration)
 - [How to Use The Rails Where Method (With Examples) - RubyGuides](https://www.rubyguides.com/2019/07/rails-where-method/)
 
-# Javascript 
+# Javascript
 - [Cal-HeatMap : Javascript calendar heatmap for time series data](https://cal-heatmap.com/)
 - [GitHub - DrkSephy/es6-cheatsheet: ES2015 [ES6] cheatsheet containing tips, tricks, best practices and code snippets](https://github.com/DrkSephy/es6-cheatsheet)
 - [Using CSS animations - CSS: Cascading Style Sheets \| MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
@@ -53,7 +53,7 @@ date: "31/07/2019"
 - [JavaScript: Learn Promises - codeburst](https://codeburst.io/javascript-learn-promises-f1eaa00c5461)
 - [Promise](https://javascript.info/promise-basics)
 
-# Design 
+# Design
 - [Charliereese Blog Posts](https://charliereese.ca/)
 - [Range \| Teamwork simplified](https://www.range.co/)
 - [Speaker Deck - Share Presentations without the Mess](https://speakerdeck.com/)
@@ -71,7 +71,7 @@ date: "31/07/2019"
 - [29 Best Material Design HTML5/CSS3 Admin Templates 2019 - Colorlib](https://colorlib.com/wp/html-admin-templates/)
 
 
-# React 
+# React
 - [REACT JS TURTORIAL](https://www.youtube.com/watch?v=ZBxMljq9GSE)
 - [React Redux Tutorial for Beginners: The Definitive Guide (2019)](https://www.valentinog.com/blog/redux/)
 - [getting 404 for links with create-react-app deployed to github pages - Stack Overflow](https://stackoverflow.com/questions/46056414/getting-404-for-links-with-create-react-app-deployed-to-github-pages)
@@ -119,7 +119,7 @@ date: "31/07/2019"
 - [4 simple ways to call a GraphQL API - Apollo GraphQL](https://blog.apollographql.com/4-simple-ways-to-call-a-graphql-api-a6807bcdb355)
 - [How to call a GraphQL API with Axios - Sashko Stubailo - Medium](https://medium.com/@stubailo/how-to-call-a-graphql-server-with-axios-337a94ad6cf9)
 
-# Docker 
+# Docker
 - [Docker 101: Fundamentals & The Dockerfile - ITNEXT](https://medium.com/@paigen11/docker-101-fundamentals-the-dockerfile-b33b59d0f14b)
 - [A Docker Tutorial for Beginners](https://docker-curriculum.com/)
 - [Medium](https://medium.com/firehydrant-io/developing-a-ruby-on-rails-app-with-docker-compose-d75b20334634)
@@ -134,7 +134,7 @@ date: "31/07/2019"
 - [What Is A Reverse Proxy? Proxy Servers Explained \| Cloudflare](https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/)
 - [調べなきゃ寝れない！と調べたら余計に寝れなくなったソケットの話 - Qiita](https://qiita.com/kuni-nakaji/items/d11219e4ad7c74ece748)
 
-# Go 
+# Go
 - [Setting up a Go Development Environment \| Mac OS X - Akyuna Akish - Medium](https://medium.com/@AkyunaAkish/setting-up-a-golang-development-environment-mac-os-x-d58e5a7ea24f)
 - [How to write fast, fun command-line applications with Golang](https://medium.freecodecamp.org/writing-command-line-applications-in-go-2bc8c0ace79d)
 # Life

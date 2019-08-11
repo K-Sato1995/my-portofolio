@@ -1,18 +1,18 @@
 ---
 title: "Jest Basic"
 description: "This is an introduction of Jest."
-cover: "assets/"
+cover: "assets/jest.png"
 category: "Javascript"
-tags: 
+tags:
   - Test
   - Jest
-readTime: 
+readTime:
 date: "21/06/2019"
 ---
-# Jest Basic 
+# Jest Basic
 Jest is a JavaScript unit testing framework built by Facebook.
 
-# Directory Structure 
+# Directory Structure
 
 ```
 - myProgram.js
@@ -20,7 +20,7 @@ Jest is a JavaScript unit testing framework built by Facebook.
    - myProgram-test.js
 ```
 
-# Basic Syntax 
+# Basic Syntax
 
 Each test file looks something like this:
 
@@ -126,7 +126,7 @@ describe('my math module', () => {
 `jest.fn` creates a mock function.
 
 ```
-const add = jest.fn() //=> returns an empty function 
+const add = jest.fn() //=> returns an empty function
 
 const num = jest.fn(() => 3) //=> returns 3
 ```
@@ -153,7 +153,7 @@ src/components/__tests__/main/index.js
 $ ./node_modules/.bin/jest
 ```
 
-## Create Coverage Report 
+## Create Coverage Report
 
 ```
 $ ./node_modules/.bin/jest --coverage
@@ -162,11 +162,11 @@ $ ./node_modules/.bin/jest --coverage
 ## Display individual test results
 
 ```
-$ ./node_modules/.bin/jest --verbose 
+$ ./node_modules/.bin/jest --verbose
 ```
 
 # Test with Enzyme
-`Enzyme` is a JavaScript Testing utility for React that makes it easier to test your React Components' output. 
+`Enzyme` is a JavaScript Testing utility for React that makes it easier to test your React Components' output.
 
 ## Set up
 
@@ -174,7 +174,7 @@ $ ./node_modules/.bin/jest --verbose
 npm install --save-dev enzyme enzyme-adapter-react-16 react-test-renderer
 ```
 
-create `src/setupTests.js` file. 
+create `src/setupTests.js` file.
 If you don't create this file, you have to define the code below in each test file.
 
 ```javascript
@@ -292,7 +292,7 @@ describe("Footer Component", () => {
 });
 ```
 
-## Simulate events 
+## Simulate events
 
 You can simulate events using `simulate` like the code below.
 
@@ -309,7 +309,7 @@ describe("Button Component", () => {
 ```
 More about this topic, check [here](https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html).
 
-# References 
+# References
 - [jest + React test example created by me](https://github.com/K-Sato1995/jest-react-practice)
 - [jestbasics](http://frantic.im/jestbasics/)
 - [Jest](https://jestjs.io/docs/en/getting-started.html)

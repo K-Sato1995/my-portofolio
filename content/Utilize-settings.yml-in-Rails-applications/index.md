@@ -1,12 +1,12 @@
 ---
 title: "Utilize settings.yml in Rails applications"
 description: "Utilize settings.yml in Rails applications by using a gem called settingslogic."
-cover: "assets/"
+cover: "assets/rails.png"
 category: "Rails"
-tags: 
+tags:
   - Rails
   - Gem
-readTime: 
+readTime:
 date: "04/07/2019"
 ---
 # Installation

@@ -28,6 +28,7 @@ class postListing extends React.Component {
             prevPage={prevPage}
             nextPage={nextPage}
             isLast={isLast}
+            isFirst={isFirst}
           />
           <Footer />
         </div>

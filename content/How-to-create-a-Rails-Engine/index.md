@@ -1,15 +1,15 @@
 ---
 title: " How to create a Rails Engine "
 description: "The post is about how to create a rails engine."
-cover: "assets/"
+cover: "assets/rails.png"
 category: "Rails"
-tags: 
+tags:
   - Rails
-readTime: 
+readTime:
 date: "03/07/2019"
 ---
-# What are engines 
-`Rails Engines` can be considered miniature applications that provide the functionality to their host applications. 
+# What are engines
+`Rails Engines` can be considered miniature applications that provide the functionality to their host applications.
 
 # Generate an engine
 

@@ -1,12 +1,12 @@
 ---
 title: "React in TypeScript"
 description: "Things I should keep in mind when I'm creating react apps in Typescript."
-cover: "assets/"
+cover: "assets/react-typescript.png"
 category: "React"
-tags: 
+tags:
   - TypeScript
   - React
-readTime: 
+readTime:
 date: "20/07/2019"
 ---
 # Add types to props
@@ -50,7 +50,7 @@ type CardProps = {
 }
 ```
 
-# Use a hook in map function 
+# Use a hook in map function
 
 When you get the error below, remember the code!
 
@@ -98,7 +98,7 @@ const Item = ({ name, tokens }: Props) => {
 export default Item;
 ```
 
-# References 
+# References
 - [TypeScript and React: Components](https://fettblog.eu/typescript-react/components/)
 - [Do's and Don'ts · TypeScript](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
 - [useTypescript — A Complete Guide to React Hooks and TypeScript](https://levelup.gitconnected.com/usetypescript-a-complete-guide-to-react-hooks-and-typescript-db1858d1fb9c)

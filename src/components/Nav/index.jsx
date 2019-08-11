@@ -21,11 +21,7 @@ function Nav() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                className="site-nav-icon"
-                src="/images/icons/twitter.svg"
-                alt="Twitter"
-              />
+              <img className="site-nav-icon" src="twitter.svg" alt="Twitter" />
             </a>
             <a
               href="https://www.facebook.com/ghost"
@@ -35,7 +31,7 @@ function Nav() {
             >
               <img
                 className="site-nav-icon"
-                src="/images/icons/facebook.svg"
+                src="facebook.svg"
                 alt="Facebook"
               />
             </a>
@@ -45,11 +41,7 @@ function Nav() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                className="site-nav-icon"
-                src="/images/icons/rss.svg"
-                alt="RSS Feed"
-              />
+              <img className="site-nav-icon" src="rss.svg" alt="RSS Feed" />
             </a>
           </div>
         </div>

@@ -1,17 +1,17 @@
 ---
 title: "Cache Rails gems using docker-compose"
 description: "How to cache gems so that you don't have to run docker-compose build over and over again"
-cover: "assets/"
+cover: "assets/docker.png"
 category: "Others"
-tags: 
+tags:
   - Docker
-readTime: 
+readTime:
 date: "28/05/2019"
 ---
 # Introduction
 Let's suppose you have a `docker-compose.yml` like the one below.
 You have to run `docker-compose build` every time you add/remove a gem to/from your `Gemfile` and it is very time-consuming.
-It would be great if I could just run `bundle install` and get back to developing the application. 
+It would be great if I could just run `bundle install` and get back to developing the application.
 Well... I'll show you exactly that in this post.
 
 
@@ -38,7 +38,7 @@ volumes:
 # Set up your docker-compose.yml
 Follow the steps below.
 
-- (1) Set up `BUNDLE_PATH` using `environment`. 
+- (1) Set up `BUNDLE_PATH` using `environment`.
 - (2) Set up the named volume `bundle_path` and add it to the top level `volumes`.
 
 Here is the modified `docker-compose.yml`.
@@ -79,7 +79,7 @@ $ docker-compose app bundle install
 ## Add or Remove a gem
 
 - (1) Stop running containers.
- 
+
 ```
 $ docker-compose down
 ```
@@ -98,6 +98,3 @@ $ docker-compose up
 
 # References
 - [Zero to Up and Running a Rails Project only using Docker](https://blog.codeminer42.com/zero-to-up-and-running-a-rails-project-only-using-docker-20467e15f1be)
-
-
-

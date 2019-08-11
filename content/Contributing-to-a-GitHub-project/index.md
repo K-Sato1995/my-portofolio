@@ -1,13 +1,13 @@
 ---
 title: "Contributing to a GitHub project"
 description: "This is a simple guide for beginners to make a Pull Request and contribute to a GitHub project. If you have never contributed any OSS project on GitHub, this guide might be useful to make your first PR(PullRequest)."
-cover: "assets/"
+cover: "assets/github.png"
 category: "Others"
-tags: 
+tags:
   - Git
   - Tutorial
   - GitHub
-readTime: 
+readTime:
 date: "01/11/2018"
 ---
 # Introduction

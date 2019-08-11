@@ -1,7 +1,7 @@
 ---
 title: "My Journey of Go ⑦ (Goroutines, Channels)"
 description: " This post is about goroutines and channels. "
-cover: "assets/journey-of-go.png"
+cover: "assets/go-lang.png"
 category: "Go"
 tags:
   - Go

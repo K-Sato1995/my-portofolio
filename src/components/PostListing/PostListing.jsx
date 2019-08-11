@@ -37,27 +37,27 @@ class PostListing extends React.Component {
                 <div className="author-header-meta">
                   <a
                     className="author-header-item"
-                    href="https://ghost.org"
+                    href="https://dev.to/k_penguin_sato"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Website
+                    Dev.to
                   </a>
                   <a
                     className="author-header-item"
-                    href="https://twitter.com/tryghost"
+                    href="https://qiita.com/k-penguin-sato"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Twitter
+                    Qiita
                   </a>
                   <a
                     className="author-header-item"
-                    href="https://www.facebook.com/ghost"
+                    href="https://github.com/K-Sato1995"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -103,10 +103,11 @@ class PostListing extends React.Component {
               ))}
             </section>
             <nav className="pagination" role="navigation">
-              <Link to={prevPage} className="newer-posts">
-                Newer Posts
-              </Link>
-
+              {!this.props.isFirst && (
+                <Link to={prevPage} className="newer-posts">
+                  Newer Posts
+                </Link>
+              )}
               {!this.props.isLast && (
                 <Link to={nextPage} className="older-posts">
                   Older Posts

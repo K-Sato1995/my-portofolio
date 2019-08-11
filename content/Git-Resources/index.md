@@ -1,21 +1,21 @@
 ---
 title: "Git Resources"
 description: "Collection of posts about Git I found on the internet. The posts are either in Japanese or English"
-cover: "assets/"
+cover: "assets/github.png"
 category: "Others"
-tags: 
+tags:
   - Git
-readTime: 
+readTime:
 date: "22/07/2019"
 ---
 # References
 
-## Dealing With Merge Conflicts 
+## Dealing With Merge Conflicts
 
 
 [Dealing With Merge Conflicts](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts)
 
-## git push の取り消し方法 
+## git push の取り消し方法
 [git push の取り消し方法 | WWWクリエイターズ](http://www-creators.com/archives/2020)
 
 ## Put commits together
@@ -27,7 +27,7 @@ date: "22/07/2019"
 ```
 $ git checkout -b other_branch origin/other_branch
 ```
-## Git Command Aliases 
+## Git Command Aliases
 
 ```
 git config --global alias.co checkout
@@ -40,7 +40,7 @@ git config --global alias.br branch
 
 - [My Post about it](https://k-sato1995.github.io/blog/untrack-already-tracked-files-in-your-git-repository)
 
-## Git Reset 
+## Git Reset
 
 ```
 --soft: uncommit changes, changes are left staged (index).

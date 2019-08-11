@@ -1,16 +1,15 @@
 ---
 title: "Rspec Basics ② (Hooks, Subject, Mocks, Stubs)"
-description: "You can specify when to run a set of code by using hooks. The most common hooks in Rspec are before and after hooks. With before and after hooks, you can create, delete or update the data very flexibly.  The Let keyword helps DRY up your tests.  If you write let(:foo){ ... }, you can retribute values that are defines in { ... } from foo.
- "
-cover: "assets/"
+description: "You can specify when to run a set of code by using hooks. The most common hooks in Rspec are before and after hooks."
+cover: "assets/rails.png"
 category: "Ruby"
-tags: 
+tags:
   - Rails
   - Ruby
   - Rspec
   - Test
   - Tutorial
-readTime: 
+readTime:
 date: "20/09/2018"
 ---
 # Before and After hooks

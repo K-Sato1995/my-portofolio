@@ -1,12 +1,12 @@
 ---
 title: "React hooks for noobs"
 description: "React16.8 introduced a new feature called hooks.  Hooks would change how you build react applications rather drastically. Here is my take to explain what they are."
-cover: "assets/"
+cover: "assets/react.png"
 category: "React"
-tags: 
+tags:
   - React
   - Hooks
-readTime: 
+readTime:
 date: "07/03/2019"
 ---
 # Introduction
@@ -20,7 +20,7 @@ I'll try to explain what they are in the following order.
 - Custom Hook
 
 # What are Hooks?
-According to the official React documentation, 
+According to the official React documentation,
 
 > Hooks let you use state and other React features without writing a class.
 
@@ -28,7 +28,7 @@ Yup. That's exactly it!.
 Now you can use some React features such as `state` in functional components thanks to `hooks`!!
 
 I'll introduce 3 following hooks in this post.
- 
+
 - (1)__State Hook__: It lets you use `state` and `setState` in functional components.
 - (2)__Effect Hook__: It lets you perform side effects such as data fetching in functional components.
 - (3)__Custom Hooks__: Building your custom hooks lets you extract component logic into reusable functions.
@@ -116,9 +116,9 @@ function Counter() {
     <div>
       // (1) You can use count directory!
       <p>You clicked {count} times</p>
-      
+
       // (2) You can update the state by using setCount.
-      <button onClick={() => setCount(count + 1)}> Click me</button> 
+      <button onClick={() => setCount(count + 1)}> Click me</button>
     </div>
   )
 }
@@ -279,7 +279,7 @@ export default function Message(props){
 }
 ```
 
-As you probably noticed, it's very redundant. 
+As you probably noticed, it's very redundant.
 You can build a `custom hook` to extract the same logic exists in both components into one reusable function.
 
 ※It is very important that you name your custom hook starting with `use`.   
@@ -300,7 +300,7 @@ export default function useLogIn(userId){
       setIsLoggedIn(false)
     }
   }
-  
+
   // Perform side effects in useEffect.
   useEffect(() => {
     handleStateChange(userId)

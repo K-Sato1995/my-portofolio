@@ -1,8 +1,8 @@
 ---
 title: "My Journey of Go ⑥ (Interfaces)"
-description: "In this post, I'll explain how interfaces work in Go. 
+description: "In this post, I'll explain how interfaces work in Go.
 "
-cover: "assets/journey-of-go.png"
+cover: "assets/go-lang.png"
 category: "Go"
 tags:
   - Go

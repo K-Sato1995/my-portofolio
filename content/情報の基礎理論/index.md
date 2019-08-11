@@ -1,11 +1,11 @@
 ---
 title: "情報の基礎理論"
 description: " コンピュータ内でのデータの表され方から、データ構造(Data Structure), アルゴリズム(Algorithm)の基礎までまとめました。"
-cover: "assets/"
+cover: "assets/basic.jpeg"
 category: "Others"
-tags: 
+tags:
   - ComputerScience
-readTime: 
+readTime:
 date: "12/03/2019"
 ---
 # 情報の表現

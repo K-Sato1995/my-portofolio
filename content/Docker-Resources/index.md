@@ -1,11 +1,11 @@
 ---
 title: "Docker Resources"
 description: "I listed awesome learning resources for Docker in this post. I'll keep adding more and more resources as I learn more about Docker. "
-cover: "assets/"
+cover: "assets/docker.png"
 category: "Others"
-tags: 
+tags:
   - Docker
-readTime: 
+readTime:
 date: "07/03/2019"
 ---
 # Great Resources
@@ -154,7 +154,7 @@ volumes: mysql:
 
 
 
-## Syntax of RUN in Dockerfile 
+## Syntax of RUN in Dockerfile
 In the shell form you can use a `\ (backslash)` to continue a single `RUN` instruction onto the next line. For example, consider these two lines.
 
 ```sh
@@ -171,7 +171,7 @@ RUN /bin/bash -c 'source $HOME/.bashrc; echo $HOME'
 
 ## Using attach
 
-Use docker attach to attach your terminal’s standard input, output, and error (or any combination of the three) to a running container using the container’s ID or name. 
+Use docker attach to attach your terminal’s standard input, output, and error (or any combination of the three) to a running container using the container’s ID or name.
 
 ```
 $ docker attach $(docker-compose ps -q your-service)
@@ -209,7 +209,7 @@ worker:
 
 ```
 // Show the existing containers
-$ docker-compose ps 
+$ docker-compose ps
 
 // Execute the command the below with the container's name you want to run the shell commands in.
 $ docker exec -i -t CONTAINER_NAME /bin/sh

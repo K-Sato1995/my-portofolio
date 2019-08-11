@@ -1,11 +1,11 @@
 ---
 title: "Go Small Tips"
 description: "Here are some tips I picked up while I was learning the Go language."
-cover: "assets/"
+cover: "assets/go-kids.png"
 category: "Go"
-tags: 
+tags:
   - Go
-readTime: 
+readTime:
 date: "11/05/2019"
 ---
 # Unreferenced package
