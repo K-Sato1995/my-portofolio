@@ -9,7 +9,7 @@ function Nav() {
             <a href="/">
               <img
                 className="site-logo"
-                src="https://static.ghost.org/v1.0.0/images/ghost-logo.svg"
+                src="logo.png"
                 alt="Ghost &amp; Gatsby"
               />
             </a>

@@ -22,7 +22,6 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
-    const { nextPage, prevPage } = this.props;
     return (
       <div>
         <main className="site-main">
@@ -101,18 +100,6 @@ class PostListing extends React.Component {
                 </Link>
               ))}
             </section>
-            <nav className="pagination" role="navigation">
-              {!this.props.isFirst && (
-                <Link to={prevPage} className="newer-posts">
-                  Newer Posts
-                </Link>
-              )}
-              {!this.props.isLast && (
-                <Link to={nextPage} className="older-posts">
-                  Older Posts
-                </Link>
-              )}
-            </nav>
           </div>
         </main>
       </div>

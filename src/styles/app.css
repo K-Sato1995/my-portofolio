@@ -686,7 +686,11 @@ h6 {
 }
 
 .site-logo {
-  height: 25px;
+  position: absolute;
+  top: -25px;
+  left: 190px;
+  height: 120px;
+  width: 130px;
 }
 
 .site-mast {
