@@ -4,41 +4,31 @@ function Footer() {
   return (
     <footer className="site-foot">
       <div className="site-foot-nav container">
-        <div className="site-foot-nav-left">
-          <a href="/">Ghost &amp; Gatsby</a>
-          {' '}
-© 2019 — Published with
-          {" "}
-          <a
-            className="site-foot-nav-item"
-            href="https://ghost.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ghost
-          </a>
-        </div>
+        <div className="site-foot-nav-left">© 2019 — Published by K-Sato</div>
         <div className="site-foot-nav-right">
-          <a className="site-foot-nav-item" href="/">
-            Home
-          </a>
-          <a className="site-foot-nav-item" href="/tag/getting-started/">
-            Tag
-          </a>
           <a
-            aria-current="page"
-            className="site-foot-nav-item"
-            href="/author/ghost/"
-          >
-            Author
-          </a>
-          <a
-            className="site-foot-nav-item"
-            href="https://help.ghost.org"
+            className="author-header-item"
+            href="https://dev.to/k_penguin_sato"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Help
+            Dev.to
+          </a>
+          <a
+            className="author-header-item"
+            href="https://qiita.com/k-penguin-sato"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Qiita
+          </a>
+          <a
+            className="author-header-item"
+            href="https://github.com/K-Sato1995"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
           </a>
         </div>
       </div>

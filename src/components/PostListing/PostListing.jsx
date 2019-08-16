@@ -33,35 +33,6 @@ class PostListing extends React.Component {
                 <p>
                   The articles are mainly about programming and my daily life.
                 </p>
-                <div className="author-header-meta">
-                  <a
-                    className="author-header-item"
-                    href="https://dev.to/k_penguin_sato"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Dev.to
-                  </a>
-                  <a
-                    className="author-header-item"
-                    href="https://qiita.com/k-penguin-sato"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Qiita
-                  </a>
-                  <a
-                    className="author-header-item"
-                    href="https://github.com/K-Sato1995"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-              <div className="author-header-image">
-                <img src="me.jpg" alt="K-Sato" />
               </div>
             </header>
             <section className="post-feed">

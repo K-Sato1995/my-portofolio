@@ -16,57 +16,34 @@ function Nav() {
           </div>
           <div className="site-mast-right">
             <a
-              href="https://twitter.com/tryghost"
-              className="site-nav-item"
+              className="author-header-item"
+              href="https://dev.to/k_penguin_sato"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="site-nav-icon" src="twitter.svg" alt="Twitter" />
+              Dev.to
             </a>
             <a
-              href="https://www.facebook.com/ghost"
-              className="site-nav-item"
+              className="author-header-item"
+              href="https://qiita.com/k-penguin-sato"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                className="site-nav-icon"
-                src="facebook.svg"
-                alt="Facebook"
-              />
+              Qiita
             </a>
             <a
-              className="site-nav-item"
-              href="https://feedly.com/i/subscription/feed/https://gatsby.ghost.org/rss/"
+              className="author-header-item"
+              href="https://github.com/K-Sato1995"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="site-nav-icon" src="rss.svg" alt="RSS Feed" />
+              GitHub
             </a>
-          </div>
-        </div>
-        <nav className="site-nav">
-          <div className="site-nav-left">
-            <a className="site-nav-item" href="/">
-              Home
-            </a>
-            <a className="site-nav-item" href="/tag/getting-started/">
-              Tag
-            </a>
-            <a
-              aria-current="page"
-              className="site-nav-item"
-              href="/author/ghost/"
-            >
-              Author
-            </a>
-          </div>
-          <div className="site-nav-right">
             <a className="site-nav-button" href="/about">
               About
             </a>
           </div>
-        </nav>
+        </div>
       </div>
     </header>
   );
