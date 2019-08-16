@@ -22,7 +22,6 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
-    const { nextPage, prevPage } = this.props;
     return (
       <div>
         <main className="site-main">
@@ -33,6 +32,35 @@ class PostListing extends React.Component {
                 <p>
                   The articles are mainly about programming and my daily life.
                 </p>
+                <div className="author-header-meta">
+                  <a
+                    className="author-header-item"
+                    href="https://dev.to/k_penguin_sato"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Dev.to
+                  </a>
+                  <a
+                    className="author-header-item"
+                    href="https://qiita.com/k-penguin-sato"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Qiita
+                  </a>
+                  <a
+                    className="author-header-item"
+                    href="https://github.com/K-Sato1995"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+              <div className="author-header-image">
+                <img src="me.jpg" alt="K-Sato" />
               </div>
             </header>
             <section className="post-feed">
@@ -72,18 +100,6 @@ class PostListing extends React.Component {
                 </Link>
               ))}
             </section>
-            <nav className="pagination" role="navigation">
-              {!this.props.isFirst && (
-                <Link to={prevPage} className="newer-posts">
-                  Newer Posts
-                </Link>
-              )}
-              {!this.props.isLast && (
-                <Link to={nextPage} className="older-posts">
-                  Older Posts
-                </Link>
-              )}
-            </nav>
           </div>
         </main>
       </div>

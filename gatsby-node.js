@@ -61,6 +61,8 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 tags
+                description
+                cover
                 category
                 date
               }
@@ -132,7 +134,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/` : `/${i + 1}`,
+      path: `/${i + 1}`,
       component: postListing,
       context: {
         limit: postsPerPage,

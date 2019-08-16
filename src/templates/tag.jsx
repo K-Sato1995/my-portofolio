@@ -2,8 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
+import PostListing from "../components/Tag/PostListing";
+import Footer from "../components/Footer/Footer";
+import Nav from "../components/Nav";
+import SEO from "../components/SEO/SEO";
 
 export default class TagTemplate extends React.Component {
   render() {
@@ -13,7 +16,10 @@ export default class TagTemplate extends React.Component {
       <Layout>
         <div className="tag-container">
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
+          <Nav />
+          <SEO />
           <PostListing postEdges={postEdges} />
+          <Footer />
         </div>
       </Layout>
     );
@@ -39,6 +45,8 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            description
+            category
             tags
             cover
             date
