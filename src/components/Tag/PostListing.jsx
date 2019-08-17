@@ -32,35 +32,6 @@ class PostListing extends React.Component {
                 <p>
                   The articles are mainly about programming and my daily life.
                 </p>
-                <div className="author-header-meta">
-                  <a
-                    className="author-header-item"
-                    href="https://dev.to/k_penguin_sato"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Dev.to
-                  </a>
-                  <a
-                    className="author-header-item"
-                    href="https://qiita.com/k-penguin-sato"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Qiita
-                  </a>
-                  <a
-                    className="author-header-item"
-                    href="https://github.com/K-Sato1995"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-              <div className="author-header-image">
-                <img src="me.jpg" alt="K-Sato" />
               </div>
             </header>
             <section className="post-feed">
@@ -71,7 +42,7 @@ class PostListing extends React.Component {
                     <div
                       className="post-card-image"
                       style={{
-                        backgroundImage: `url(${post.cover})`
+                        backgroundImage: `url(/${post.cover})`
                       }}
                     />
                     <div className="post-card-tags">
@@ -87,14 +58,14 @@ class PostListing extends React.Component {
                       <div className="post-card-avatar">
                         <img
                           className="author-profile-image"
-                          src="photo.png"
+                          src="/photo.png"
                           alt="K-Sato"
                         />
                       </div>
                       <span>K-Sato</span>
                     </div>
                     <div className="post-card-footer-right">
-                      <div>1 min read</div>
+                      <div>5 min read</div>
                     </div>
                   </footer>
                 </Link>
