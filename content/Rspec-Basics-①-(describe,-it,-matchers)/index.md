@@ -1,6 +1,6 @@
 ---
 title: "Rspec Basics ① (describe, it, matchers)"
-description: "RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. How to install Rspec on your RoR applications? You have to add rspec-rails to both the :development and :test groups in the Gemfile."
+description: "How to install Rspec on your RoR applications? You have to add rspec-rails to both the :development and :test groups in the Gemfile."
 cover: "assets/rails.png"
 category: "Ruby"
 tags:

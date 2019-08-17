@@ -533,7 +533,7 @@ h6 {
 .content {
   margin: 0 auto;
   font-size: 2rem;
-  line-height: 1.7em;
+  line-height: 1.9em;
 }
 
 .content-body {
@@ -543,7 +543,7 @@ h6 {
 }
 
 .post-full-content {
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
   background: #fff;
 }
@@ -564,8 +564,11 @@ h6 {
   font-family: var(--font-sans-serif);
 }
 
+.content-body .language-text {
+  font-size: 0.8em;
+}
 .content-body h1 {
-  margin: 1em 0 0.5em 0;
+  margin: 0.8em 0 0.8em 0;
   font-size: 3.4rem;
   font-weight: 700;
 }
@@ -590,7 +593,7 @@ h6 {
 }
 
 .content-body h2 {
-  margin: 0.8em 0 0.4em 0;
+  margin: 0.8em 0 0.8em 0;
   font-size: 3.2rem;
   font-weight: 700;
 }
@@ -601,7 +604,7 @@ h6 {
 }
 
 .content-body h3 {
-  margin: 0.5em 0 0.2em 0;
+  margin: 0.8em 0 0.8em 0;
   font-size: 2.8rem;
   font-weight: 700;
 }
@@ -740,11 +743,23 @@ h6 {
 }
 
 .site-nav-left {
-  margin: 0 20px 0 -10px;
+  margin: 0 20px 0 0px;
 }
 
 .site-nav-right {
   margin: 0 -10px 0 20px;
+}
+
+.site-nav-left-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px 0 0px;
+  border: #fff 1px solid;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1em;
+  border-radius: var(--radius);
+  opacity: 0.7;
 }
 
 .site-nav-button {
