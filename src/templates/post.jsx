@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import UserInfo from "../components/UserInfo/UserInfo";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer/Footer";
 import PostTags from "../components/PostTags/PostTags";
