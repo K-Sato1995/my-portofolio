@@ -2,8 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
+import PostListing from "../components/Category/PostListing";
 import config from "../../data/SiteConfig";
+import Footer from "../components/Footer/Footer";
+import Nav from "../components/Nav";
+import SEO from "../components/SEO/SEO";
 
 export default class CategoryTemplate extends React.Component {
   render() {
@@ -15,7 +18,10 @@ export default class CategoryTemplate extends React.Component {
           <Helmet
             title={`Posts in category "${category}" | ${config.siteTitle}`}
           />
+          <Nav />
+          <SEO />
           <PostListing postEdges={postEdges} />
+          <Footer />
         </div>
       </Layout>
     );

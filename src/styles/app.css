@@ -564,6 +564,9 @@ h6 {
   font-family: var(--font-sans-serif);
 }
 
+.content-body .language-text {
+  font-size: 0.8em;
+}
 .content-body h1 {
   margin: 0.8em 0 0.8em 0;
   font-size: 3.4rem;
