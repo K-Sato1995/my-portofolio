@@ -53,9 +53,7 @@ class PostListing extends React.Component {
                     <h2 className="post-card-title">{post.title}</h2>
                   </header>
                   <section className="post-card-excerpt">
-                    {post.description.length < 200
-                      ? post.description
-                      : `${post.description.substring(0, 50)}...`}
+                    {`${post.description.substring(0, 150)}...`}
                   </section>
                   <footer className="post-card-footer">
                     <div className="post-card-footer-left">
