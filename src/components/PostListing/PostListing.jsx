@@ -23,6 +23,7 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     const { nextPage, prevPage } = this.props;
+
     return (
       <div>
         <main className="site-main">
@@ -52,7 +53,9 @@ class PostListing extends React.Component {
                     <h2 className="post-card-title">{post.title}</h2>
                   </header>
                   <section className="post-card-excerpt">
-                    {post.description}
+                    {post.description.length < 200
+                      ? post.description
+                      : `${post.description.substring(0, 50)}...`}
                   </section>
                   <footer className="post-card-footer">
                     <div className="post-card-footer-left">
@@ -66,7 +69,7 @@ class PostListing extends React.Component {
                       <span>K-Sato</span>
                     </div>
                     <div className="post-card-footer-right">
-                      <div>1 min read</div>
+                      <div>5 min read</div>
                     </div>
                   </footer>
                 </Link>

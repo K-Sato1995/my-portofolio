@@ -4,9 +4,8 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Nav from "../components/Nav";
-import Disqus from "../components/Disqus/Disqus";
+import Footer from "../components/Footer/Footer";
 import PostTags from "../components/PostTags/PostTags";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "../styles/app.css";
@@ -46,13 +45,9 @@ export default class PostTemplate extends React.Component {
                   </section>
                 </section>
               </article>
-              <div className="post-meta">
-                <SocialLinks postPath={slug} postNode={postNode} />
-              </div>
-              <UserInfo config={config} />
-              <Disqus postNode={postNode} />
             </div>
           </main>
+          <Footer />
         </div>
       </Layout>
     );

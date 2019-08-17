@@ -1,7 +1,7 @@
 ---
 title: "React Routing"
 description: "In this post, I am going to talk about how to implement routing in your react applications with react-router-dom."
-cover: "assets/react-router.png"
+cover: "assets/router.png"
 category: "React"
 tags:
   - React
