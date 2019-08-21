@@ -7,7 +7,6 @@ category: "Go"
 tags:
   - Go
   - Tutorial
-readTime:
 date: "08/10/2018"
 ---
 # Introduction

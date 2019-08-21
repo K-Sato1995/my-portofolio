@@ -5,7 +5,6 @@ cover: "assets/virtual.png"
 category: "Others"
 tags:
   - VirtualBox
-readTime:
 date: "13/06/2019"
 ---
 # (1) Download VirtualBox

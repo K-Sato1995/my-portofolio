@@ -5,7 +5,6 @@ cover: "assets/github.png"
 category: "Others"
 tags:
   - Git
-readTime:
 date: "22/07/2019"
 ---
 # Commit all your changes

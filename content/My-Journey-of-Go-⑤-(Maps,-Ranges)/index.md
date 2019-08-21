@@ -7,7 +7,6 @@ category: "Go"
 tags:
   - Go
   - Tutorial
-readTime:
 date: "30/09/2018"
 ---
 # Maps

@@ -6,7 +6,6 @@ category: "Others"
 tags:
   - Linux
   - Shell
-readTime:
 date: "14/05/2019"
 ---
 # Introduction

@@ -6,7 +6,6 @@ category: "Go"
 tags:
   - Go
   - Tutorial
-readTime:
 date: "23/09/2018"
 ---
 # What is 'My Journey of Go' for?

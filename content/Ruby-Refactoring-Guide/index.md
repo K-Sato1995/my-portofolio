@@ -5,7 +5,6 @@ cover: "assets/refactoring.jpg"
 category: "Ruby"
 tags:
   - Ruby
-readTime:
 date: "21/03/2019"
 ---
 # Common Refactoring approaches

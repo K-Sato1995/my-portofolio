@@ -7,7 +7,6 @@ tags:
   - React
   - react-routing-dom
   - Tutorial
-readTime:
 date: "10/11/2018"
 ---
 # Introduction

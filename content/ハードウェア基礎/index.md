@@ -5,7 +5,6 @@ cover: "assets/hardware.jpeg"
 category: "Others"
 tags:
   - Hardware
-readTime:
 date: "24/02/2019"
 ---
 # コンピュータの 5 大装置

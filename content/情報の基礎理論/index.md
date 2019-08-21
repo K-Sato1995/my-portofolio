@@ -5,7 +5,6 @@ cover: "assets/basic.jpeg"
 category: "Others"
 tags:
   - ComputerScience
-readTime:
 date: "12/03/2019"
 ---
 # 情報の表現

@@ -5,7 +5,6 @@ cover: "assets/structure.png"
 category: "Others"
 tags:
   - Server
-readTime:
 date: "14/05/2019"
 ---
 # システムの構成と方式

@@ -5,7 +5,6 @@ cover: "assets/backup.jpeg"
 category: "Rails"
 tags:
   - Backup
-readTime:
 date: "26/06/2019"
 ---
 # Create a backup script

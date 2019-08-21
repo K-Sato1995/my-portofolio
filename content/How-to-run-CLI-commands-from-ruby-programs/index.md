@@ -5,7 +5,6 @@ cover: "assets/bash.jpeg"
 category: "Ruby"
 tags:
   - Ruby
-readTime:
 date: "02/07/2019"
 ---
 # The Ruby System Method

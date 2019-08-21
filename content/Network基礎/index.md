@@ -5,7 +5,6 @@ cover: "assets/network.jpg"
 category: "Others"
 tags:
   - Network
-readTime:
 date: "19/02/2019"
 ---
 # 規模による分類

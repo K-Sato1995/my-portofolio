@@ -7,7 +7,6 @@ tags:
   - Redux
   - React
   - Tutorial
-readTime:
 date: "16/12/2018"
 ---
 # Introduction

@@ -7,7 +7,6 @@ tags:
   - Ruby
   - getter-setter
   - Tutorial
-readTime:
 date: "17/09/2018"
 ---
 # What is a getter method?

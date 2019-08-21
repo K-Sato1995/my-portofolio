@@ -5,7 +5,6 @@ cover: "assets/servers.jpg"
 category: "Others"
 tags:
   - Server
-readTime:
 date: "27/02/2019"
 ---
 In this post, I will break down three main `servers` that are used for web-applications which are `web server`, `application server` and `database server`.

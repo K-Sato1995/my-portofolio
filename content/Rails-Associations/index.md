@@ -6,7 +6,6 @@ category: "Rails"
 tags:
   - Rails
   - Associations
-readTime:
 date: "21/01/2019"
 ---
 # Associations

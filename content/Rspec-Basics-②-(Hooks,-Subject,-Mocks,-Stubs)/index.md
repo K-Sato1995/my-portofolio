@@ -9,7 +9,6 @@ tags:
   - Rspec
   - Test
   - Tutorial
-readTime:
 date: "20/09/2018"
 ---
 # Before and After hooks

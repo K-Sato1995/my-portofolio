@@ -7,7 +7,6 @@ tags:
   - GraphQL
   - Apollo
   - Typescript
-readTime:
 date: "20/07/2019"
 ---
 # Installation

@@ -5,7 +5,6 @@ cover: "assets/rails.png"
 category: "Rails"
 tags:
   - Rails
-readTime:
 date: "03/07/2019"
 ---
 # What are engines

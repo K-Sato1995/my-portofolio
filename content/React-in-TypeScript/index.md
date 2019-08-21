@@ -6,7 +6,6 @@ category: "React"
 tags:
   - TypeScript
   - React
-readTime:
 date: "20/07/2019"
 ---
 # Add types to props

@@ -5,7 +5,6 @@ cover: "assets/test.jpeg"
 category: "Others"
 tags:
   - 基本情報
-readTime:
 date: "21/05/2019"
 ---
 # テクノロジ(知識系)

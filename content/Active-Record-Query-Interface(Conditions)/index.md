@@ -6,7 +6,6 @@ category: "Rails"
 tags:
   - ActiveRecord
   - Rails
-readTime:
 date: "08/02/2019"
 ---
 ## Introduction

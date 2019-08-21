@@ -6,7 +6,6 @@ category: "Javascript"
 tags:
   - npm
   - package
-readTime:
 date: "07/06/2019"
 ---
 # Introduction

@@ -6,7 +6,6 @@ category: "Javascript"
 tags:
   - ES6
   - Javascript
-readTime:
 date: "12/10/2018"
 ---
 # Introduction
