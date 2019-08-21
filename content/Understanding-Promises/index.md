@@ -5,7 +5,6 @@ cover: "assets/promises.jpg"
 category: "Javascript"
 tags:
   - Promise
-readTime:
 date: "17/06/2019"
 ---
 # What is a promise?

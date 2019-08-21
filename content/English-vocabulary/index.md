@@ -5,7 +5,6 @@ cover: "assets/english.jpeg"
 category: "Others"
 tags:
   - Language
-readTime:
 date: "19/05/2019"
 ---
 # Introduction

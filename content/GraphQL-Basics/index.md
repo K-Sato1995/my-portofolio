@@ -6,7 +6,6 @@ cover: "assets/graphql.png"
 category: "Others"
 tags:
   - GraphQL
-readTime:
 date: "17/12/2018"
 ---
 # Introduction

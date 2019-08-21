@@ -5,7 +5,6 @@ cover: "assets/software.jpg"
 category: "Others"
 tags:
   - Software
-readTime:
 date: "27/02/2019"
 ---
 # ソフトウェアと OSS

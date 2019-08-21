@@ -8,7 +8,6 @@ tags:
   - Gem
   - Rails
   - Tutorial
-readTime:
 date: "25/09/2018"
 ---
 # Introduction

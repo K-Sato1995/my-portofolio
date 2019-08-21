@@ -1,14 +1,12 @@
 ---
 title: "Build a simple API using RoR5"
-description: "Here is a simple guideline to create a simple API with RoR5. In this post, I'll create a simple blog like application that users can read, create, update and delete posts on.
-"
+description: "Here is a simple guideline to create a simple API with RoR5. In this post, I'll create a simple blog like application that users can read, create, update and delete posts on."
 cover: "assets/rails.png"
 category: "Rails"
 tags:
   - API
   - Ruby
   - Tutorial
-readTime:
 date: "17/09/2018"
 ---
 # Overview

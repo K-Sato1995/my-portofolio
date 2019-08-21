@@ -9,7 +9,6 @@ tags:
   - Rspec
   - Test
   - Tutorial
-readTime:
 date: "18/09/2018"
 ---
 # What is Rspec?

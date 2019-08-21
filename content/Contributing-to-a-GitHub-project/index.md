@@ -7,7 +7,6 @@ tags:
   - Git
   - Tutorial
   - GitHub
-readTime:
 date: "01/11/2018"
 ---
 # Introduction

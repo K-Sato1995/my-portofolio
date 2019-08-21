@@ -7,7 +7,6 @@ tags:
   - ESLint
   - Javascript
   - Tutorial
-readTime:
 date: "15/12/2018"
 ---
 # Introduction

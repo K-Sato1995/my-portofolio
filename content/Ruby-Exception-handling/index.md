@@ -6,7 +6,6 @@ category: "Ruby"
 tags:
   - Ruby
   - Exception
-readTime:
 date: "21/05/2019"
 ---
 # Basic Syntax

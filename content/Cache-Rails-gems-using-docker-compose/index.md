@@ -5,7 +5,6 @@ cover: "assets/docker.png"
 category: "Others"
 tags:
   - Docker
-readTime:
 date: "28/05/2019"
 ---
 # Introduction

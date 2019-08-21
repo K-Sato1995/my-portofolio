@@ -5,7 +5,6 @@ cover: "assets/docker.png"
 category: "Others"
 tags:
   - Docker
-readTime:
 date: "07/03/2019"
 ---
 # Great Resources

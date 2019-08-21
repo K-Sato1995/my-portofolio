@@ -6,7 +6,6 @@ category: "Javascript"
 tags:
   - Javascript
   - Exception
-readTime:
 date: "21/06/2019"
 ---
 # Basic Syntax

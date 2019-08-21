@@ -6,7 +6,6 @@ category: "React"
 tags:
   - React
   - Hooks
-readTime:
 date: "07/03/2019"
 ---
 # Introduction

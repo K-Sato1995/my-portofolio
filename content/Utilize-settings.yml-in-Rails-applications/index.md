@@ -6,7 +6,6 @@ category: "Rails"
 tags:
   - Rails
   - Gem
-readTime:
 date: "04/07/2019"
 ---
 # Installation

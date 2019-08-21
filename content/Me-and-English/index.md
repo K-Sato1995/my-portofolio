@@ -5,7 +5,6 @@ cover: "assets/me-english.jpeg"
 category: "Life"
 tags:
   - Language
-readTime:
 date: "09/05/2019"
 ---
 # Introduction

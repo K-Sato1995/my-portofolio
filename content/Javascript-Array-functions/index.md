@@ -5,7 +5,6 @@ cover: "assets/javascript.png"
 category: "Javascript"
 tags:
   - Javascript
-readTime:
 date: "21/06/2019"
 ---
 # Introduction

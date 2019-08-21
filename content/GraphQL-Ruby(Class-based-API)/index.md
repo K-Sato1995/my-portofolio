@@ -6,7 +6,6 @@ category: "Others"
 tags:
   - GraphQL
   - Tutorial
-readTime:
 date: "18/12/2018"
 ---
 # Introduction

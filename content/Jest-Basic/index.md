@@ -6,7 +6,6 @@ category: "Javascript"
 tags:
   - Test
   - Jest
-readTime:
 date: "21/06/2019"
 ---
 # Jest Basic

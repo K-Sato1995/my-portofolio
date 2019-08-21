@@ -67,7 +67,11 @@ class PostListing extends React.Component {
                       <span>K-Sato</span>
                     </div>
                     <div className="post-card-footer-right">
-                      <div>5 min read</div>
+                      <div>
+                        {post.timeToRead}
+                        {' '}
+min read
+                      </div>
                     </div>
                   </footer>
                 </Link>

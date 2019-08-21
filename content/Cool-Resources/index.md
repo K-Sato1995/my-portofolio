@@ -5,7 +5,6 @@ cover: "assets/library.jpeg"
 category: "Others"
 tags:
   - Documents
-readTime:
 date: "31/07/2019"
 ---
 # Ruby

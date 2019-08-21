@@ -5,7 +5,6 @@ cover: "assets/bash.jpeg"
 category: "Others"
 tags:
   - Shell
-readTime:
 date: "06/10/2018"
 ---
 # Basic Linux Commands

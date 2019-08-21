@@ -8,7 +8,6 @@ tags:
   - Ruby
   - Rspec
   - Gem
-readTime:
 date: "21/09/2018"
 ---
 # Useful gems you can use with Rspec

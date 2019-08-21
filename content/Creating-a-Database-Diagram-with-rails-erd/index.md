@@ -5,7 +5,6 @@ cover: "assets/db-diagram.jpeg"
 category: "Rails"
 tags:
   - Documents
-readTime:
 date: "17/07/2019"
 ---
 # Add rails-erd

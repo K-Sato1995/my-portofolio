@@ -5,7 +5,6 @@ cover: "assets/sql.jpg"
 category: "Others"
 tags:
   - SQL
-readTime:
 date: "19/01/2019"
 ---
 # Retrieviing records from one table
