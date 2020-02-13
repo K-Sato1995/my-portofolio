@@ -52,7 +52,6 @@ def create_header(post, f, index)
   f.puts "category: \"#{find_category(post[:category_id])}\""
   f.puts "tags: "
   inline_tags(find_tags(index), f)
-  f.puts 'readTime: '
   f.puts "date: \"#{parse_date(post[:created_at])}\""
   f.puts '---'
 end
